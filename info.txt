@@ -1,0 +1,13 @@
+CREATE TABLE `customer` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `image` varchar(1024) DEFAULT NULL,
+  `name` varchar(64) DEFAULT NULL,
+  `birthday` varchar(64) DEFAULT NULL,
+  `gender` varchar(64) DEFAULT NULL,
+  `job` varchar(64) DEFAULT NULL,
+  `isDeleted` int DEFAULT NULL,
+  `createdDate` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8
+
+
